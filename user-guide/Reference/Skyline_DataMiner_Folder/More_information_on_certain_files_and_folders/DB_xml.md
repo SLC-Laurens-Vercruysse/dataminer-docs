@@ -218,6 +218,7 @@ The following example illustrates the configuration of a general database of typ
  </DataBase>
  <DataBase active="true" search="true" type="Elasticsearch">
  <DBServer>localhost:9200,10.3.1.100</DBServer>
+ <DB>sldmadb</DB>
  <UID>root</UID>
  <PWD/>
  </DataBase>
@@ -571,6 +572,7 @@ To do so:
    ```xml
    <DataBase active="true" search="true" type="Elasticsearch">
     <DBServer>10.11.51.58</DBServer>
+    <DB>sldmadb</DB>
     <UID>username</UID>
     <PWD>password123</PWD>
    </DataBase>
